@@ -22,7 +22,7 @@ function moveCard() {
     }
 }
 
-let autoplayInterval = setInterval(moveCard, 4000);
+
 
 stack.addEventListener("click", (e) => {
     const card = e.target.closest(".card");
